@@ -11,7 +11,7 @@ function MenuItems({ image, name, price, onClicks }) {
       <div class="card-img" style={{ backgroundImage: `url(${image})` }}></div>
       <div class="card-info">
         <p class="text-title">{name}</p>
-        <button className='card-button'>See Details products</button>
+        <button className='card-button'>See Details Products</button>
       </div>
       <div class="card-footer">
         <span class="text-price">{price}</span>

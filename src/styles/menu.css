@@ -86,8 +86,10 @@ svg {
   display: flex;
   padding: .3em;
   cursor: pointer;
-  border-radius: 50px;
+  border-radius: 5px;
+  background-color: transparent;
   transition: .3s ease-in-out;
+  font-weight: bold;
 }
 
 /*Hover*/
