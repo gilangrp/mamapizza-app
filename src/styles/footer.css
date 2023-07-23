@@ -1,0 +1,49 @@
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    
+  }
+  
+  .socialMedia svg {
+    color: black;
+    margin: 20px;
+    font-size: 70px;
+    cursor: pointer;
+  }
+  
+  .footer p {
+    color: black;
+    font-weight: bold;
+  }
+
+  /* Large desktop */
+@media (min-width: 1200px) {
+
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+
+ }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .footer {
+    height: 170px;
+  }
+  .socialMedia svg {
+    font-size: 60px;
+    margin: 0;
+  }
+}

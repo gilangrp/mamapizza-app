@@ -1,0 +1,125 @@
+.menu {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  margin-top:80px;
+
+
+}
+
+.menu .menuTitle {
+  font-family: cursive;
+  font-size: 60px;
+  color: black;
+}
+
+.menuList {
+  width: 70vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+
+
+}
+
+/* MENU ITEM STYLING */
+
+.card {
+  width: 250px;
+  height: 400px;
+  padding: .8em;
+  background: #F9F6EE;
+  position: relative;
+  overflow: visible;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+}
+
+.card-img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50%;
+  width: 100%;
+  border-radius: .5rem;
+  transition: .3s ease;
+}
+
+.card-info {
+  padding-top: 10%;
+}
+
+svg {
+  width: 20px;
+  height: 20px;
+}
+
+.card-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+
+/*Text*/
+.text-title {
+  font-weight: 900;
+  font-size: 1.6em;
+  line-height: 1.5;
+}
+
+.text-body {
+  font-size: .9em;
+  padding-bottom: 10px;
+}
+
+/*Button*/
+.card-button {
+  border: 1px solid #252525;
+  display: flex;
+  padding: .3em;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: .3s ease-in-out;
+}
+
+/*Hover*/
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0px 8px 23px 0px rgba(0, 0, 0, 0.28);
+  -webkit-box-shadow: 0px 8px 23px 0px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 0px 8px 23px 0px rgba(0, 0, 0, 0.28);
+}
+
+.card-img:hover {
+  transform: translateY(-25%);
+  box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+
+}
+
+.card-button:hover {
+  border: 1px solid #ffcaa6;
+  background-color: #ffcaa6;
+}
+
+
+@media only screen and (max-width: 1300px) {
+  .menuList {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .menuList {
+    grid-template-columns: 1fr ;
+    
+  }
+ 
+}

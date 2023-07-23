@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#root {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    --yellow: #FFEA00;
+    --black: #050505;
+    --skyblue: #D2F7FF;
+    --whitebone: #fffdf7;
+    --blue: #6180f2;
+    box-sizing: border-box;
+}
+
+.App {
+    padding: 0;
+    margin: 0;
+   
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-family:"Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    --yellow: #FFEA00;
+    --black: #050505;
+    box-sizing: border-box;
+
+  }
+  
+  body {
+    padding: 0;
+ 
+    box-sizing: border-box;
+    margin: 0;
+  }
+  html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+  }

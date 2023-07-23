@@ -1,0 +1,397 @@
+.home {
+
+  width: auto;
+  min-height: 100vh;
+  /* display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column; */
+
+  font-family: 'Poppins', sans-serif;
+  /* betapa penting overflow hidden */
+  overflow: hidden;
+
+
+
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-color: #ffea00;
+
+}
+
+.headerContainer .image {
+  position: absolute;
+  margin-left: 500px;
+}
+
+.headerContainer .image img {
+
+  width: 700px;
+  height: auto;
+}
+
+
+.headerContainer h1 {
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  height: 60px;
+  font-weight: bold;
+  color: white;
+  text-shadow: -2px 1px 7px rgba(0, 0, 0, 0.54);
+ 
+  top: 50px;
+}
+
+.headerContainer p {
+  padding: 0;
+  font-size: 40px;
+  font-weight: lighter;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  top: 40px;
+}
+
+.headerContainer button {
+  appearance: none;
+  background-color: yellow;
+  border: 0.125em solid #1A1A1A;
+  border-radius: 0.9375em;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 3.75em;
+  min-width: 0;
+  outline: none;
+  padding: 1em 2.3em;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+  position: relative;
+  bottom: 50px;
+}
+
+.headerContainer button:disabled {
+  pointer-events: none;
+}
+
+.headerContainer button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.headerContainer button:hover {
+  color: #fff;
+  background-color: red;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+/* Special Pizza */
+.special-pizza {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.special-pizza h1 {
+  color: black;
+}
+.special-pizza span {
+  border: 1px solid grey;
+  border-radius: 50%;
+
+  height: 0px;
+  width: 300px;
+  position: relative;
+  bottom: 30px;
+}
+.special-pizza p {
+  position: relative;
+  font-weight: bold;
+  color: grey;
+  bottom: 40px;
+}
+.special-pizza .list-product {
+  
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  
+}
+
+.special-pizza .product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 20px;
+  
+}
+.special-pizza .product-image {
+  
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+.special-pizza h3 {
+  font-size: 25px;
+  color: black;
+  text-transform: uppercase;
+}
+.special-pizza i {
+  color: grey;
+  position: relative;
+  bottom: 20px;
+}
+.special-pizza a {
+  display: flex;
+  justify-content: center;
+}
+.special-pizza button {
+  appearance: none;
+  background-color: var(--yellow);
+  border: 0.125em solid #1A1A1A;
+  border-radius: 0.9375em;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 3.75em;
+  min-width: 0;
+  outline: none;
+  padding: 1em 2.3em;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+
+
+  margin-bottom: 60px;
+}
+/* Special Pizza */
+
+/* Banner 1 */
+.banner-1 {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+.banner-1 h1 {
+  position: relative;
+  top: 150px;
+  left: 100px;
+  color: white;
+text-align: justify;
+font-weight: bold;
+-webkit-text-stroke: 0.5px black;
+}
+/* Banner 1 */
+
+
+
+/* About */
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  
+}
+.about h1 {
+  color: black;
+}
+.about span {
+  border: 1px solid grey;
+  border-radius: 50%;
+  width: 300px;
+  height: 0px;
+  position: relative;
+  bottom: 30px;
+}
+.about p {
+  position: relative;
+  bottom: 40px;
+  color: grey;
+  font-weight: bold;
+}
+.list-about {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.content-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 30px;
+
+}
+.image-about {
+width: 300px;
+height: 600px;
+background-size: cover;
+background-position: center;
+}
+.content-about i {
+  text-align: justify;
+  font-size: 15px;
+  bottom: 20px;
+  position: relative;
+}
+/* About */
+
+
+
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1070px) { 
+  .special-pizza .product-image {
+  
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  .image-about {
+    width: 200px;
+    height: 500px;
+  }
+  .content-about i {
+    text-align: center;
+  }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+  .headerContainer h1 {
+    color: white;
+    position: relative;
+    font-size:60px;
+  }
+
+  .headerContainer p {
+    font-weight: bold;
+    color: white;
+    text-shadow: -2px 1px 7px rgba(0, 0, 0, 0.54);
+   
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+  }
+  .special-pizza .list-product {
+  
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    
+  }
+  .list-about {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .content-about {
+    height: 600px;
+  }
+ }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .home {
+    width: 100%;
+  }
+  .headerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .headerContainer h1 {
+    color: white;
+    position: relative;
+    font-size:45px;
+  }
+
+  .headerContainer p {
+    font-weight: bold;
+    color: white;
+    text-shadow: -2px 1px 7px rgba(0, 0, 0, 0.54);
+    top: 100px;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+  }
+  .headerContainer button {
+    top: 50px;
+  }
+  .headerContainer .image {
+    position: relative;
+    
+  }
+  .headerContainer .image img {
+    margin-right: 10;
+    width: 600px;
+  }
+
+
+  .special-pizza .list-product {
+  
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    
+  }
+
+  .banner-1 h1 {
+   
+    
+  }
+  .list-about {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .content-about {
+    height: 400px;
+  }
+}
